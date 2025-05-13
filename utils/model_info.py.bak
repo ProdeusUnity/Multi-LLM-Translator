@@ -1,0 +1,154 @@
+# Model information for different providers
+
+# Anthropic models
+ANTHROPIC_MODELS = {
+    "claude-3-7-sonnet-20250219": "claude-3-7-sonnet-20250219",
+    "claude-3-5-sonnet-20241022": "claude-3-5-sonnet-20241022",
+    "claude-3-5-sonnet-20240620": "claude-3-5-sonnet-20240620",
+    "claude-3-5-haiku-20241022": "claude-3-5-haiku-20241022",
+    "claude-3-opus-20240229": "claude-3-opus-20240229"
+}
+
+# Gemini models
+GOOGLE_MODELS = {
+    "gemini-2.0-flash": "gemini-2.0-flash",
+    "gemini-2.0-flash-lite": "gemini-2.0-flash-lite",
+    "gemini-2.0-pro-exp-02-05": "gemini-2.0-pro-exp-02-05",
+    "gemini-2.0-flash-exp": "gemini-2.0-flash-exp",
+    "gemini-1.5-flash": "gemini-1.5-flash",
+    "gemini-1.5-pro": "gemini-1.5-pro"
+}
+
+# AI21 models
+AI21_MODELS = {
+    "jamba-1.6-large": "jamba-1.6-large",
+    "jamba-1.6-mini": "jamba-1.6-mini"
+}
+
+# OpenAI models
+OPENAI_MODELS = {
+    "gpt-4o-latest": "gpt-4o",
+    "gpt-4o-mini": "gpt-4o-mini"
+}
+
+# Deepseek models
+DEEPSEEK_MODELS = {
+    "deepseek-chat": "deepseek-chat"
+}
+
+# Cohere models
+COHERE_MODELS = {
+    "command-r-plus": "command-r-plus",
+    "command-r": "command-r",
+    "c4ai-aya-expanse-32b": "c4ai-aya-expanse-32b",
+    "command-a-03-2025": "command-a-03-2025"
+}
+
+# Mistral models
+MISTRAL_MODELS = {
+    "mistral-large-latest": "mistral-large-latest",
+    "mistral-small-latest": "mistral-small-latest",
+    "open-mistral-nemo": "open-mistral-nemo",
+    "ministral-8b-latest": "ministral-8b-latest",
+    "mistral-saba-latest": "mistral-saba-latest"
+}
+
+# Featherless models (example)
+FEATHERLESS_MODELS = {
+    "Qwen/Qwen2.5-72B-Instruct": "Qwen/Qwen2.5-72B-Instruct",
+    "Qwen/Qwen2.5-32B-Instruct": "Qwen/Qwen2.5-32B-Instruct",
+    "Qwen/Qwen2.5-14B-Instruct": "Qwen/Qwen2.5-14B-Instruct",
+    "Qwen/Qwen2.5-7B-Instruct": "Qwen2.5-7B-Instruct",
+    "featherless-ai/Qwerky-72B-Preview": "featherless-ai/Qwerky-72B-Preview",
+    "deepseek-ai/DeepSeek-R1": "deepseek-ai/DeepSeek-R1",
+    "meta-llama/Llama-3.3-70B-Instruct": "meta-llama/Llama-3.3-70B-Instruct",
+    "rinna/qwen2.5-bakeneko-32b-instruct-v2": "rinna/qwen2.5-bakeneko-32b-instruct-v2"    
+}
+
+# ArliAI models
+ARLIAI_MODELS = {
+
+    "Qwen2.5-72B-Instruct": "Qwen2.5-72B-Instruct",
+    "Qwen2.5-32B-Instruct": "Qwen2.5-32B-Instruct",
+    "Llama-3.3-70B-Instruct": "Llama-3.3-70B-Instruct",
+    "Mistral-Nemo-12B-Instruct-2407": "Mistral-Nemo-12B-Instruct-2407",
+    "Mistral-Small-24B-Instruct-2501": "Mistral-Small-24B-Instruct-2501",
+}
+
+# Openrouter models - This would typically be fetched from their API
+OPENROUTER_MODELS = {
+    "anthropic/claude-3.7-sonnet": "anthropic/claude-3.7-sonnet",
+    "anthropic/claude-3.7-sonnet:thinking": "anthropic/claude-3.7-sonnet:thinking",
+    "anthropic/claude-3.5-sonnet": "anthropic/claude-3.5-sonnet",
+    "anthropic/claude-3.5-sonnet-20240620": "anthropic/claude-3.5-sonnet-20240620",
+    "anthropic/claude-3-opus": "anthropic/claude-3-opus",
+    "ai21/jamba-1.6-large": "ai21/jamba-1.6-large",
+    "ai21/jamba-1.6-mini": "ai21/jamba-1.6-mini",
+    "ai21/jamba-1.5-large": "ai21/jamba-1.5-large",
+    "ai21/jamba-1.5-mini": "ai21/jamba-1.5-mini",
+    "ai21/jamba-instruct": "ai21/jamba-instruct",
+    "cohere/command-a": "cohere/command-a",
+    "cohere/command-r-plus-08-2024": "cohere/command-r-plus-08-2024",
+    "cohere/command-r-08-2024": "cohere/command-r-08-2024",
+    "cohere/command-r7b-12-2024": "cohere/command-r7b-12-2024",
+    "deepseek/deepseek-chat:free": "deepseek/deepseek-chat:free",
+    "deepseek/deepseek-r1:free": "deepseek/deepseek-r1:free",
+    "deepseek/deepseek-chat-v3-0324:free": "deepseek/deepseek-chat-v3-0324:free",
+    "google/gemma-3-1b-it:free": "google/gemma-3-1b-it:free",
+    "google/gemma-3-4b-it:free": "google/gemma-3-4b-it:free",
+    "google/gemma-2-9b-it:free": "google/gemma-2-9b-it:free",
+    "google/gemma-3-12b-it:free": "google/gemma-3-12b-it:free",
+    "google/gemma-3-27b-it:free": "google/gemma-3-27b-it:free",
+    "google/gemini-2.0-flash-001": "google/gemini-2.0-flash-001",
+    "google/gemini-2.0-flash-lite-001": "google/gemini-2.0-flash-lite-001",
+    "google/gemini-2.0-flash-lite-preview-02-05:free": "google/gemini-2.0-flash-lite-preview-02-05:free",
+    "google/gemini-2.0-pro-exp-02-05:free": "google/gemini-2.0-pro-exp-02-05:free",
+    "google/gemini-2.0-flash-exp:free": "google/gemini-2.0-flash-exp:free",
+    "google/gemini-exp-1206:free": "google/gemini-exp-1206:free",
+    "google/gemini-flash-1.5": "google/gemini-flash-1.5",
+    "google/gemini-pro-1.5": "google/gemini-pro-1.5",
+    "mistralai/mistral-small-3.1-24b-instruct:free": "mistralai/mistral-small-3.1-24b-instruct:free",
+    "mistralai/mistral-small-24b-instruct-2501:free": "mistralai/mistral-small-24b-instruct-2501:free",
+    "mistralai/mistral-large-2411": "mistralai/mistral-large-2411",
+    "mistralai/mistral-nemo:free": "mistralai/mistral-nemo:free",
+    "qwen/qwen-2.5-72b-instruct:free": "qwen/qwen-2.5-72b-instruct:free",
+    "openai/gpt-4o": "openai/gpt-4o"    
+}
+
+# OAI Comaptible models - This would typically be fetched from the API
+OAICOMPAT_MODELS = {
+    "koboldcpp/mistral-nemo-japanese-instruct-2408-q6_k": "koboldcpp/mistral-nemo-japanese-instruct-2408-q6_k",
+    "mistral-7b": "Mistral 7B"
+}
+
+# All models in one dictionary
+ALL_MODELS = {
+    "Anthropic": ANTHROPIC_MODELS,
+    "Gemini": GOOGLE_MODELS,
+    "AI21": AI21_MODELS,
+    "OpenAI": OPENAI_MODELS,
+    "Deepseek": DEEPSEEK_MODELS,
+    "Cohere": COHERE_MODELS,
+    "Mistral": MISTRAL_MODELS,
+    "Featherless": FEATHERLESS_MODELS,
+    "ArliAI": ARLIAI_MODELS,
+    "Openrouter": OPENROUTER_MODELS,
+    "OpenAI Compatible": OAICOMPAT_MODELS
+}
+
+
+def get_model_display_name(provider, model_id):
+    """Get a user-friendly display name for a model."""
+    provider_models = ALL_MODELS.get(provider, {})
+    return provider_models.get(model_id, model_id)
+
+
+def get_models_for_provider(provider):
+    """Get all models for a specific provider."""
+    return ALL_MODELS.get(provider, {})
+
+
+def is_valid_model(provider, model_id):
+    """Check if a model ID is valid for a provider."""
+    provider_models = ALL_MODELS.get(provider, {})
+    return model_id in provider_models
