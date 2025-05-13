@@ -103,7 +103,7 @@ FEATHERLESS_MODELS = {
     "Qwen 2.5 32B": "Qwen/Qwen2.5-32B-Instruct",
     "Qwen 2.5 14B": "Qwen/Qwen2.5-14B-Instruct",
     "Qwen 2.5 7B": "Qwen/Qwen2.5-7B-Instruct",
-    "QWQ 32B": :"Qwen/QwQ-32B",
+    "QWQ 32B": "Qwen/QwQ-32B",
     "Qwerky 72B": "featherless-ai/Qwerky-72B-Preview",
     "DeepSeek R1": "deepseek-ai/DeepSeek-R1",
     "DeepSeek v3 (March 2025)": "deepseek-ai/DeepSeek-V3-0324",
