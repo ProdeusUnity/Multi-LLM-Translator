@@ -2,6 +2,8 @@
 
 # Anthropic models
 ANTHROPIC_MODELS = {
+    "Claude 4 Opus (May 2025)": "claude-opus-4-20250514",
+    "Claude 4 Sonnet (May 2025)": "claude-sonnet-4-20250514",
     "Claude 3.7 Sonnet (February 2025)": "claude-3-7-sonnet-20250219",
     "Claude 3.5 Sonnet (October 2024)": "claude-3-5-sonnet-20241022",
     "Claude 3.5 Sonnet (June 2024)": "claude-3-5-sonnet-20240620",
@@ -16,6 +18,7 @@ ANTHROPIC_MODELS = {
 
 # Google AI Studio models
 GOOGLE_MODELS = {
+    "Gemini 2.5 Pro Preview 05/20": "gemini-2.5-flash-preview-05-20",
     "Gemini 2.5 Pro Preview 05/06": "gemini-2.5-pro-preview-05-06",
     "Gemini 2.5 Pro Preview 03/25": "gemini-2.5-pro-exp-03-25",
     "Gemini 2.5 Flash Preview 04/17": "gemini-2.5-flash-preview-04-17",
@@ -29,6 +32,7 @@ GOOGLE_MODELS = {
     "Gemini 1.5 Pro": "gemini-1.5-pro",
     "Gemma 3 1b Instruct": "gemma-3-1b-it",
     "Gemma 3 4b Instruct": "gemma-3-4b-it",
+    "Gemma 3n E4B Instruct": "gemma-3n-e4b-it",
     "Gemma 3 12b Instruct": "gemma-3-12b-it",
     "Gemma 3 27b Instruct": "gemma-3-27b-it"
 }
@@ -65,8 +69,7 @@ OPENAI_MODELS = {
     "OpenAI o1 Mini (September 2024)": "o1-mini-2024-09-12",
     "OpenAI o3 (April 2025)": "o3-2025-04-16",
     "OpenAI o3 Mini (January 2025)": "o3-mini-2025-01-31",
-    "OpenAI o4 Mini (April 2025)": "o4-mini-2025-04-16"
-
+    "OpenAI o4 Mini (April 2025)": "o4-mini-2025-04-16"   
 }
 
 # Deepseek models
@@ -99,6 +102,9 @@ MISTRAL_MODELS = {
 
 # Featherless models
 FEATHERLESS_MODELS = {
+    "Qwen 3 32B": "Qwen/Qwen3-32B",
+    "Qwen 3 14B": "Qwen/Qwen3-14B",
+    "Qwen 3 8B": "Qwen/Qwen3-8B",
     "Qwen 2.5 72B": "Qwen/Qwen2.5-72B-Instruct",
     "Qwen 2.5 32B": "Qwen/Qwen2.5-32B-Instruct",
     "Qwen 2.5 14B": "Qwen/Qwen2.5-14B-Instruct",
@@ -113,8 +119,7 @@ FEATHERLESS_MODELS = {
     "Gemma 3 27b Instruct (Gated)": "google/gemma-3-27b-it",
     "Gemma 3 27b Pretrain (Gated)": "google/gemma-3-27b-pt",
     "Gemma 3 12b Instruct (Gated)": "google/gemma-3-12b-it",
-    "Mistral Small 3.1 24B Instruct (Gated)": "mistralai/Mistral-Small-3.1-24B-Instruct-2503"    
-
+    "Mistral Small 3.1 24B Instruct (Gated)": "mistralai/Mistral-Small-3.1-24B-Instruct-2503"   
 }
 
 # ArliAI models
@@ -128,6 +133,8 @@ ARLIAI_MODELS = {
 
 # Openrouter models - This would typically be fetched from their API
 OPENROUTER_MODELS = {
+    "Claude 4 Opus": "anthropic/claude-opus-4",
+    "Claude 4 Sonnet": "anthropic/claude-sonnet-4",
     "Claude 3.7 Sonnet": "anthropic/claude-3.7-sonnet",
     "Claude 3.7 Sonnet (Thinking)": "anthropic/claude-3.7-sonnet:thinking",
     "Claude 3.5 Sonnet (Latest)": "anthropic/claude-3.5-sonnet",
@@ -155,15 +162,32 @@ OPENROUTER_MODELS = {
     "Gemini 2.0 Flash Lite Preview (Free)": "google/gemini-2.0-flash-lite-preview-02-05:free",
     "Gemini 2.0 Pro Exp (Free)": "google/gemini-2.0-pro-exp-02-05:free",
     "Gemini 2.0 Flash Exp (Free)": "google/gemini-2.0-flash-exp:free",
-    "Gemini Exp 1206 (Free)": "google/gemini-exp-1206:free",
+    "Gemini 2.5 Pro Preview 05/20 (Thinking)": "google/gemini-2.5-flash-preview-05-20:thinking",
+    "Gemini 2.5 Pro Preview": "google/gemini-2.5-pro-preview",
+    "Gemini 2.5 Flash Preview 04/17 (Thinking)": "google/gemini-2.5-flash-preview:thinking",
     "Gemini Flash 1.5": "google/gemini-flash-1.5",
     "Gemini Pro 1.5": "google/gemini-pro-1.5",
     "Mistral Small 3.1 24B (Free)": "mistralai/mistral-small-3.1-24b-instruct:free",
+    "Mistral Medium 3": "mistralai/mistral-medium-3",
     "Mistral Small 24B (Free)": "mistralai/mistral-small-24b-instruct-2501:free",
     "Mistral Large (November 2024)": "mistralai/mistral-large-2411",
     "Mistral Nemo (Free)": "mistralai/mistral-nemo:free",
     "Qwen 2.5 72B (Free)": "qwen/qwen-2.5-72b-instruct:free",
-    "GPT-4o": "openai/gpt-4o"    
+    "Qwen 3 235B-A22B (Free)": "qwen/qwen3-235b-a22b:free",
+    "Qwen 3 235B-A22B": "qwen/qwen3-235b-a22b",
+    "Qwen 3 32B": "qwen/qwen3-32b",
+    "Qwen 3 30B-A3B": "qwen/qwen3-30b-a3b",
+    "Qwen 3 14b": "qwen/qwen3-14b",
+    "Qwen 3 8B": "qwen/qwen3-8b",
+    "Qwen 3 4B (Free)": "qwen/qwen3-4b:free",
+    "Qwen 3 1.7B": "qwen/qwen3-1.7b",
+    "Qwen 3 0.6B": "qwen/qwen3-0.6b",
+    "GPT-4o": "openai/gpt-4o",
+    "GPT-4.1": "openai/gpt-4.1",
+    "GPT-4.1 Nano": "openai/gpt-4.1-nano",
+    "GPT-4.1 Mini": "openai/gpt-4.1-mini",
+    "OpenAI o4 Mini": "openai/o4-mini",
+    "OpenAI o3": "openai/o3-mini"
 }
 
 # OAI Compatible models - This would typically be fetched from the API
